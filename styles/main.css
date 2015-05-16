@@ -1,0 +1,95 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	color: #555555;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#Top-Logo
+{
+	color: #5d307d;
+	font-weight: 500;
+	font-size: 24px;
+	padding-left: 50px;
+	float: left;
+	line-height: 50px;
+}
+
+.Top-Item-Separator
+{
+	width: 20px;
+	float: left;
+}
+
+.Top-Item
+{
+	color: #5d307d;
+	font-size: 16px;
+	float: left;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.Top-Item a
+{
+	color: #5d307d;
+}
+
+.Top-Item-Selected
+{
+	background-color: #eeeeee;
+}
+
+#Banner
+{
+	height: 280px;
+	background-color: #6a4f93;
+}
+
+#Banner-Title
+{
+	font-size: 60px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+#Banner-Content
+{
+	font-size: 25px;
+	color: #cccccc;
+	margin-top: 10px;
+	margin-left: 50px;
+	float: left;
+}
+
+#Content
+{
+	padding: 50px;
+}
+
+#Footer
+{
+	border-top: #dddddd solid 1px;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 65px;
+	color: #888888;
+}
