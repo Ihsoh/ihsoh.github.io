@@ -20,6 +20,7 @@
 			}
 		</style>
 		<script type="text/javascript" language="javascript">
+			/*
 			window.onload = function() {
 				var screenshots = document.getElementsByName("Screenshot");
 				for(var i = 0; i < screenshots.length; i++)
@@ -27,9 +28,17 @@
 						window.open(this.src);
 					}
 			}
+			*/
 		</script>
+
+		<script src="jquery/jquery-2.1.4.js" type="text/javascript" language="javascript">
+		</script>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" language="javascript">
+		</script>
+
 	</head>
-	<body>
+	<body id="Body">
 		<div>
 			<div id="Top-Logo">
 				Ihsoh
@@ -58,7 +67,7 @@
 			<br clear="all" />
 		</div>
 
-		<div id="Content">
+		<div id="Content">			
 			<h1>Description</h1>
 			<br />
 			<br />
@@ -102,12 +111,112 @@
 			<br />
 			<br />
 			<div id="ScreenshotBox">
+				
+
+				<a href="#ScreenshotDlg0" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot3.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg0" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">ISystem x86 GUI Mode</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot3.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<a href="#ScreenshotDlg1" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot4.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">Editor</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot4.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<a href="#ScreenshotDlg2" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot5.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">Lua</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot5.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<a href="#ScreenshotDlg3" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot0.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg3" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">ISystem x86 CLI Mode</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot0.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<a href="#ScreenshotDlg4" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot1.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg4" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">ISystem x86 CLI Mode</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot1.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<a href="#ScreenshotDlg5" role="button" data-toggle="modal">
+					<img src="images/screenshot/screenshot2.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				</a>
+				<div id="ScreenshotDlg5" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h3 id="myModalLabel">Editor</h3>
+					</div>
+					<div class="modal-body">
+						<p><img src="images/screenshot/screenshot2.png" alt="GUI" name="Screenshot" /></p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>
+
+				<!--
 				<img src="images/screenshot/screenshot3.png" alt="GUI" class="Screenshot" name="Screenshot" />
 				<img src="images/screenshot/screenshot4.png" alt="Editor" class="Screenshot" name="Screenshot" />
 				<img src="images/screenshot/screenshot5.png" alt="Lua" class="Screenshot" name="Screenshot" />
 				<img src="images/screenshot/screenshot0.png" alt="Console" class="Screenshot" name="Screenshot" />
 				<img src="images/screenshot/screenshot1.png" alt="Console" class="Screenshot" name="Screenshot" />
 				<img src="images/screenshot/screenshot2.png" alt="Editor" class="Screenshot" name="Screenshot" />
+				-->
 			</div>
 			<br />
 			<br />

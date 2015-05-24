@@ -2,9 +2,9 @@
 {
 	margin: 0px;
 	padding: 0px;
+	line-height: 1em;
 	font-family: 'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
-
 h1, h2, h3, h4, h5, h6, p
 {
 	color: #555555;
@@ -15,7 +15,10 @@ p
 	font-size: 20px;
 }
 
-a
+#Body a,
+#Body a:hover,
+#Body a:active,
+#Body a:visited
 {
 	text-decoration: none;
 }
