@@ -3,7 +3,31 @@
 	<head>
 		<meta charset='utf-8'>
 		<title>ISystem x86</title>
-		<link href="styles/main.css" rel="stylesheet">
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<style type="text/css" type="text/css">
+			.Screenshot
+			{
+				width: 300px;
+				height: 200px;
+				margin-left: 20px;
+				margin-top: 20px;
+				border: 3px solid #8e70c9;
+			}
+
+			.Screenshot:hover
+			{
+				border: 3px solid #5d307d;
+			}
+		</style>
+		<script type="text/javascript" language="javascript">
+			window.onload = function() {
+				var screenshots = document.getElementsByName("Screenshot");
+				for(var i = 0; i < screenshots.length; i++)
+					screenshots[i].onclick = function() {
+						window.open(this.src);
+					}
+			}
+		</script>
 	</head>
 	<body>
 		<div>
@@ -49,6 +73,17 @@
 			<br />
 			<br />
 
+			<h1>Sources</h1>
+			<br />
+			<br />
+			<p>
+				<a href="https://github.com/Ihsoh/isystemx86" target="_blank">ISystem x86 Github</a>
+			</p>
+			<br />
+			<br />
+			<br />
+			<br />
+
 			<h1>Download</h1>
 			<br />
 			<br />
@@ -66,22 +101,14 @@
 			<h1>Screenshot</h1>
 			<br />
 			<br />
-			<img src="images/screenshot/screenshot3.png" alt="GUI" />
-			<br />
-			<br />
-			<img src="images/screenshot/screenshot4.png" alt="Editor" />
-			<br />
-			<br />
-			<img src="images/screenshot/screenshot5.png" alt="Lua" />
-			<br />
-			<br />
-			<img src="images/screenshot/screenshot0.png" alt="Console" />
-			<br />
-			<br />
-			<img src="images/screenshot/screenshot1.png" alt="Console" />
-			<br />
-			<br />
-			<img src="images/screenshot/screenshot2.png" alt="Editor" />
+			<div id="ScreenshotBox">
+				<img src="images/screenshot/screenshot3.png" alt="GUI" class="Screenshot" name="Screenshot" />
+				<img src="images/screenshot/screenshot4.png" alt="Editor" class="Screenshot" name="Screenshot" />
+				<img src="images/screenshot/screenshot5.png" alt="Lua" class="Screenshot" name="Screenshot" />
+				<img src="images/screenshot/screenshot0.png" alt="Console" class="Screenshot" name="Screenshot" />
+				<img src="images/screenshot/screenshot1.png" alt="Console" class="Screenshot" name="Screenshot" />
+				<img src="images/screenshot/screenshot2.png" alt="Editor" class="Screenshot" name="Screenshot" />
+			</div>
 			<br />
 			<br />
 			<br />
